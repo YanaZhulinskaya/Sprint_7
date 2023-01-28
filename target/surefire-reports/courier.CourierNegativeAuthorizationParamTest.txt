@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: courier.CourierNegativeAuthorizationParamTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 60.621 s <<< FAILURE! - in courier.CourierNegativeAuthorizationParamTest
+loginCourierAndCheckStatusCode[#0, org.example.courier.Courier@539f2fec, 400, Недостаточно данных для входа](courier.CourierNegativeAuthorizationParamTest)  Time elapsed: 60.195 s  <<< ERROR!
+java.lang.IllegalStateException: 
+Cannot invoke the path method because no content-type was present in the response and no default parser has been set.
+
+You can specify a default parser using e.g.:
+RestAssured.defaultParser = Parser.JSON;
+
+	at courier.CourierNegativeAuthorizationParamTest.loginCourierAndCheckStatusCode(CourierNegativeAuthorizationParamTest.java:47)
+
