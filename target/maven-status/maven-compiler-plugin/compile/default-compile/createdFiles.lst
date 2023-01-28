@@ -1,0 +1,8 @@
+org/example/order/Order.class
+org/example/order/OrderClient.class
+org/example/courier/Credentials.class
+org/example/courier/CourierGenerator.class
+org/example/order/OrderGenerator.class
+org/example/courier/Courier.class
+org/example/courier/CourierClient.class
+org/example/Client.class

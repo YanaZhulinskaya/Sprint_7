@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: courier.CourierNegativeParamTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 60.548 s <<< FAILURE! - in courier.CourierNegativeParamTest
+createCourierWithOutOneParameterCheckStatusCode[0](courier.CourierNegativeParamTest)  Time elapsed: 60.117 s  <<< ERROR!
+java.lang.IllegalStateException: 
+Cannot invoke the path method because no content-type was present in the response and no default parser has been set.
+
+You can specify a default parser using e.g.:
+RestAssured.defaultParser = Parser.JSON;
+
+	at courier.CourierNegativeParamTest.createCourierWithOutOneParameterCheckStatusCode(CourierNegativeParamTest.java:55)
+
+createCourierWithOutOneParameterCheckStatusCode[1](courier.CourierNegativeParamTest)  Time elapsed: 0.424 s  <<< ERROR!
+java.lang.NullPointerException
+	at courier.CourierNegativeParamTest.createCourierWithOutOneParameterCheckStatusCode(CourierNegativeParamTest.java:55)
+
